@@ -5,7 +5,7 @@
 ### Run
 
 ``` sh
-$ mvn wildfly-swarm:run
+$ ./mvnw wildfly-swarm:run
 ```
 
 ### Access to API
@@ -29,5 +29,5 @@ Session ID:YD0KrWoflDjMS_jqcn9gs0angZM-YAdElLyUfin2, 2 Times Access.
 Run another node.
 
 ```
-$ mvn wildfly-swarm:run -Dswarm.port.offset=100
+$ ./mvnw wildfly-swarm:run -Dswarm.port.offset=100
 ```
